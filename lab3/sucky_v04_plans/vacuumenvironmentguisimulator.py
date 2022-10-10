@@ -48,7 +48,7 @@ class VacuumEnvironmentGUISimulator:
 
         
     def setup_gui(self):
-        command = yaml.load(open(CONFIG_FILE_NAME))['simulation']['command']
+        command = yaml.safe_load(open(CONFIG_FILE_NAME))['simulation']['command']
         self.root = Tk()
         self.root.title("Vacuum Environment")
         self.root.minsize(1024,768)
