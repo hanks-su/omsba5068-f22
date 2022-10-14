@@ -97,7 +97,7 @@ class AgentWorldModel:
         width = len(self.squares[0])
         for r in range(0, height):
             for c in range(0, width):
-                if self.squares[r][c] != WALL:
+                if self.squares[r][c] in [DIRT, CLEAN, GOLD]:
                     squares.append((r,c))
         return squares
     
