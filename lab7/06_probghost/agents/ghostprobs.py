@@ -8,7 +8,7 @@ def default_probe_probs():
         0:  {"red": .94, "orange": .03, "yellow": .02, "green": .01},
         1:	{"red": .15, "orange": .80, "yellow": .02, "green": .03},
         2:	{"red": .05, "orange": .85, "yellow": .06, "green": .04},
-        3:	{"red": .03, "orange": .07, "yellow": .80, "green": .10},
+        3:	{"red": .05, "orange": .15, "yellow": .5,  "green": .3},
         4:	{"red": .01, "orange": .09, "yellow": .75, "green": .15},
         5:	{"red": .01, "orange": .04, "yellow": .10, "green": .85},
         6:	{"red": .001, "orange": .01, "yellow": .02, "green": .97},
