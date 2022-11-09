@@ -37,7 +37,7 @@ class BayesianAgentWorldModel:
         r,c = self.current_location
         if probe != None:
             self.probes[self.current_location] = probe
-            self.ghost_probs.update((probe, self.current_location))
+            self.ghost_probs.update_probe((probe, self.current_location))
         if bust != None:
             self.busts[self.current_location] = bust
             self.ghost_probs.update_bust((bust, self.current_location))
