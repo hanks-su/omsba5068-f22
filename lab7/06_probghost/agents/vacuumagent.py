@@ -17,8 +17,8 @@ BATTERY_CONSUMPTION = { ACTION_TURN_LEFT: 0,
                         ACTION_FORWARD: 0,
                         ACTION_NOP: 0,
                         ACTION_STOP: 0,
-                        ACTION_PROBE_GHOST: 0, 
-                        ACTION_BUST_GHOST: 0
+                        ACTION_PROBE_GHOST: 5, 
+                        ACTION_BUST_GHOST: 20
                         }
 
 class VacuumAgent(Agent):

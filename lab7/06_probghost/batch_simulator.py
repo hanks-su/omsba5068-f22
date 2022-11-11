@@ -35,6 +35,7 @@ def run_agents_in_environment(dirt_density,
             agents = [make_agent(aspec[0], aspec[1], logger) for aspec in agent_specs]
             for a in agents:
                 v = VacuumSimulation(a, dirt_density, wall_density, seed)
+                v.env.prep_agent(a, 'None')
                 v.run()
                 output_file.write(f"{a.version},{dirt_density},{wall_density},{a.score()}\n")
                 if print_results_to_console:

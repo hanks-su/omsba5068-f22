@@ -15,8 +15,8 @@ dirt_density = 0.1
 wall_density = 0.3
 num_samples = 100
 output_file_name = 'simulation_results.csv'
-agents = [ ("agents/ghostbusteragent.py",  "GhostBusterAgent"),
-           ("agents/bayesianghostbusteragent.py",   "BayesianGhostBusterAgent"),
+agents = [ ("agents/ghostbusteragent.py",  "GhostBusterAgent")
+           #("agents/bayesianghostbusteragent.py",   "BayesianGhostBusterAgent"),
          ]
 write_results_to_console = True
 
